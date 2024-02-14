@@ -54,52 +54,66 @@ console.log('ok')
 
             // get deleted code back 
             // git restore <file name>
-console.log('hello ')
+
 
         // do back the file from staging area to unstage
         // unstage the change 
-        // git restore --staged <file Name>
+        // first method ==> git restore --staged <file Name>
+        // second method ==> git reset 
 
 
-        // GET ALL DELETED FILE 
-        // git checkout -f 
+
+         // ..................REMOVE FILE  rm = remove...........................
+                        
+                            // rm <fileName> = rm js.js
 
 
-        // use mv command to rename the file 
-        // git mv js.js jsEdited.js 
+
+        //.................. GET ALL DELETED FILE................................
+                        
+                                // git checkout -f 
+
+
+        //.................use mv command to rename the file........................... 
+        
+                                // git mv js.js jsEdited.js 
 
         
-        // REMOVE FILE  rm = remove
-        // rm <fileName> = rm js.js 
 
 
-            // clear cached for ignore 
-        // git rm --cached git.html
+            //..................clear cached for ignore.......................... 
 
-
-        // to write the code or text in git 
-        // vi <fileName> = vi file.html 
+                                //git rm --cached git.html
 
 
 
 
-
-        // to show a particular commit
-        // git show <commit id> = git show e17dgj
-
-
-        // DETAIL ABOUT THE COMMIT WHO AND WHEN THE COMMIT WAS CHANGED 
-        // git blame js.jscledk
+        //....................to write the code or text in git..................... 
+        
+                            // vi <fileName> = vi file.html 
 
 
 
-        // TAKE HEAD TO PREVIOUS COMMIT
-        // git reset --hard <previous commit id>
-        // git reset --hard e3842a5 
 
-        console.log('one more commit')
-    console.log('new comiit -')
 
-        // to clone project from the git hub 
-        // git clone <url of clone github>
-        // git clone https://github.com/X-SLAYER/Website-Cloner.git
+        // ........................to show a particular commit.......................
+        
+                        // git show <commit id> = git show e17dgj
+
+
+        //..................DETAIL ABOUT THE COMMIT WHO AND WHEN THE COMMIT WAS CHANGED.................... 
+                
+                                        // git blame js.jscledk
+
+
+
+        // ..............................TAKE HEAD TO PREVIOUS COMMIT.....................
+        
+                                    // git reset --hard <previous commit id>
+                                    // git reset --hard e3842a5 
+
+    
+        //........................... to clone project from the git hub......................... 
+        
+                                    // git clone <url of clone github>
+                                    // git clone https://github.com/X-SLAYER/Website-Cloner.git
