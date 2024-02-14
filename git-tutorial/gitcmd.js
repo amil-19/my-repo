@@ -54,7 +54,7 @@ console.log('ok')
 
             // get deleted code back 
             // git restore <file name>
-
+console.log('hello ')
 
         // do back the file from staging area to unstage
         // unstage the change 
