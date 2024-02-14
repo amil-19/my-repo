@@ -1,65 +1,94 @@
-// git config --global user.name
-console.log('AMIL')
-// git config --global user.email
 
+//................................... git config --global user.name.........................
 
-    // LIST OF CONFIG 
-    // git config --list
-
-
-
-// CREAT NEW FOLDER
-console.log('ok')
-    // mkdir <folderName> = mkdir myFolder
-
-
-        // CREATE A FILE INSITE FOLDER USING GIT 
-    // touch file.index
-
-    // CHECK HOW MANY FILE INSIDE THE FOLDER USING GIT 
-    // ls -a (LS -A)
-
-
-
-    // persent working directry (it will tell which folder are yoi in) 
-    // pwd 
-
-
-    // commit git 
-        // git commit -m "this is commit messege or note"
-
-
-
-        // DIRECT COMMIT THE FILE WITHOUD SENDING TO STAGING AREA 
-        // git commit -a -m 'file commited withoud sending to staging area'
+                                    // git config --global user.email
 
 
 
 
-    // CHECK WHAT YOU CHANGE IN FILE BEFORE git add . 
-    // git diff
+    //......................................LIST OF CONFIG...........................
+    
+                                        // git config --list
 
 
-    // CHECK WHAT YOU CHANGED IN FILE AFTER git add . and before commit 
-    // stage area
-    // git diff --staged
 
 
-    // DETAILS ABOUT PREVIOUS COMMIT 
-        // git log
+                //............................CREAT NEW FOLDER..............................
+    
+                                    // mkdir <folderName> = mkdir myFolder
+
+
+
+
+        //....................... CREATE A FILE INSITE FOLDER USING GIT.......................... 
+    
+                                        // touch file.index
+
+
+
+    //.......................... CHECK HOW MANY FILE INSIDE THE FOLDER USING GIT........................... 
+    
+                                    // ls -a (LS -A)
+
+
+
+    //.............................persent working directry (it will tell which folder are yoi in).................. 
+            
+                                                                    // pwd 
+
+
+    //..........................................................commit git................................
         
-        // to one line or short code 
-        // git log --oneline 
+                                                // git commit -m "this is commit messege or note"
+
+                                                
+
+
+        //........................DIRECT COMMIT THE FILE WITHOUD SENDING TO STAGING AREA.............................................
+        
+                            // git commit -a -m 'file commited withoud sending to staging area'
+
+
+
+
+
+    // ...............................CHECK WHAT YOU CHANGE IN FILE BEFORE git add.............................. 
+    
+                                                        //git diff
+
+
+    //...............................CHECK WHAT YOU CHANGED IN FILE AFTER git add . and before commit............
+    // stage area
+                                                        // git diff --staged
+
+
+
+
+    //.....................................DETAILS ABOUT PREVIOUS COMMIT.......................... 
+                                                    // git log
+        
+
+
+
+        //....................................to one line or short code.............................
+        
+                                                // git log --oneline 
     
 
-            // get deleted code back 
-            // git restore <file name>
 
 
-        // do back the file from staging area to unstage
+
+            //....................................get deleted code back............................
+            
+                                                // git restore <file name>
+
+
+
+
+        //............................do back the file from staging area to unstage............................
         // unstage the change 
-        // first method ==> git restore --staged <file Name>
-        // second method ==> git reset 
+                                // first method ==> git restore --staged <file Name>
+                                        // second method ==> git reset 
 
 
 
