@@ -41,7 +41,7 @@
         
                                                 // git commit -m "this is commit messege or note"
 
-                                                
+
 
 
         //........................DIRECT COMMIT THE FILE WITHOUD SENDING TO STAGING AREA.............................................
@@ -58,7 +58,7 @@
 
 
     //...............................CHECK WHAT YOU CHANGED IN FILE AFTER git add . and before commit............
-    // stage area
+                                // stage area
                                                         // git diff --staged
 
 
@@ -91,6 +91,24 @@
                                         // second method ==> git reset 
 
 
+        // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+        //    ............................ GO BACK TO PREVIOUS COMMIT ON STAGING AREA....................
+                                        
+                                            // git reset --soft HEAD~1
+                                            // git reset --soft <previous commit id>
+                                            // commit id ===>  git log 
+
+
+                                        
+        // ..............................GO BACK TO PREVIOUS COMMIT WITHOUD STAGING AREA FULL BACK.....................
+        
+                                    // git reset --hard <previous commit id>
+                                    // git reset --hard e3842a5 
+                                                                        // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+                                                                        
 
          // ..................REMOVE FILE  rm = remove...........................
                         
@@ -135,11 +153,6 @@
                                         // git blame js.jscledk
 
 
-
-        // ..............................TAKE HEAD TO PREVIOUS COMMIT.....................
-        
-                                    // git reset --hard <previous commit id>
-                                    // git reset --hard e3842a5 
 
     
         //........................... to clone project from the git hub......................... 
