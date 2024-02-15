@@ -158,7 +158,7 @@
         //........................... to clone project from the git hub......................... 
         
                                     // git clone <url of clone github>
-                                    // git clone https://github.com/X-SLAYER/Website-Cloner.git
+                                    // git clone https://github.com/amil-19/my-repo/tree/main/git-tutorial
 
 
 
