@@ -21,3 +21,6 @@
                                     // second step =>  git merge <branch name>   
 
 
+            //....................................RENAME THE BRANCH.............................. 
+
+                                    // git branch -m old_branch_name new_branch_name
