@@ -14,3 +14,10 @@
                                 //                 git switch userA
                                 // SECOND METHOD   git checkout <branch name> 
 
+
+            //............................MERGE BRANCH INTO MAIN BRANCH...................................
+                                        
+                                    //  first step =>  git switch main 
+                                    // second step =>  git merge <branch name>   
+
+
