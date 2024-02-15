@@ -159,3 +159,11 @@
         
                                     // git clone <url of clone github>
                                     // git clone https://github.com/X-SLAYER/Website-Cloner.git
+
+
+
+                //............................what code inside the file............................ 
+
+                                                // cat <file path>
+                                                // cat git.html
+                                                // cat git-tutorial/index.html 

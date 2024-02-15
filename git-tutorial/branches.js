@@ -21,3 +21,6 @@
                                     // second step =>  git merge <branch name>   
 
 
+            //....................................DELETE BRANCH.............................
+            
+                                            // git branch -d branch_name
