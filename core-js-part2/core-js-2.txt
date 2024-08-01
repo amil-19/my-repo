@@ -1,0 +1,22 @@
+1. What is JavaScript primarily used for in web development?
+A. Styling web pages
+B. Creating databases
+D. Generating server-side code
+2. What is the purpose of the "!== " operator in JavaScript?
+A. Checks for equality
+B. Checks for strict equality
+C. Checks for inequality
+
+3. Which statement is used to execute different actions based on different conditions in JavaScript?
+A. for
+C. if-else
+D. while
+4. Which loop in JavaScript is guaranteed to run at least once?
+A. for loop
+B. while loop
+D. switch loop
+5. In JavaScript, what is NaN?
+
+B. Negative and Null
+C. New and Null
+D. None and Null
